@@ -12,6 +12,8 @@ indexer
   .option("-m, --multiple-indices [value]", "Multiple categories")
   .option("-p, --custom-index", "Custom index")
   .option("--config [value]", "Config file", "./config.yaml")
+  .option("--imap [value]", "Image map", "imagemap.json")
+  .option("--ilabel [value]", "Image label", "thumbnail")
   .option(
     "-c, --content-size [value]",
     "Content size to send to Algolia",
